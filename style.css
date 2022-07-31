@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: #f7d794;
+    background-size: cover;
+    font-family: 'Edit Undo BRK', sans-serif;
+}
+
+.header {
+    display: flex;
+    background-color: #1e272e;
+    padding: 40px 0;
+    justify-content: center;
+    color: #f39c12;
+    font-size: 1.4rem;
+}
+
+.selections {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.selector-text {
+    justify-content: center;
+    text-align: center;
+    font-size: 1.4rem;
+    color: #222f3e;
+    padding: 4px 0;
+}
+
+.btn-restart {
+    color: #f39c12;
+    background-color: #222f3e;
+    font-family: 'Edit Undo BRK', sans-serif;
+    cursor: pointer;
+    padding: 10px;
+    margin: 20px;
+}
+
+.selection {
+    padding: 10px 40px;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 6rem;
+    transition: 400ms;
+}
+
+.selection:hover {
+    transform: scale(1.2);
+}
+
+.results {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+    font-size: 2.2rem;
+    color: #222f3e;
+}
+
+.result-score {
+    margin-left: 0.1rem;
+}
+
+.result-selection {
+    opacity: .5;
+    font-size: 2.5rem;
+}
+
+.result-selection.winner {
+    opacity: 1;
+    font-size: 3.2rem;
+}
+
+

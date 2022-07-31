@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="http://fonts.cdnfonts.com/css/edit-undo-brk" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon-32x32.png">
+    <title>Rock Paper Scissors</title>
+</head>
+<body>
+    <header class="header">
+        <h1>👾 Rock Papper Scissors 👾</h1>
+    </header>
+    <div class="selector-text">
+        <h2>Pick your weapon</h2>
+        <input class="btn-restart" type="button" value="Restart" onclick="location.reload()" data-refresh-score />
+    </div>
+    <div class="selections">
+        <button class="selection" data-selection="rock">✊</button>
+        <button class="selection" data-selection="paper">✋</button>
+        <button class="selection" data-selection="scissor">✌</button>
+    </div>
+    <div class="results">
+        <div>
+            Player:
+            <span class="result-score" data-player-score>0</span>
+        </div>
+        <div data-final-column>
+            Cpu:
+            <span class="result-score" data-cpu-score>0</span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
