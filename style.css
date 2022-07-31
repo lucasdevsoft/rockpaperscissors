@@ -11,7 +11,7 @@
 body {
     background-color: #f7d794;
     background-size: cover;
-    font-family: 'Edit Undo BRK', sans-serif;
+    font-family: 'Press Start 2P', cursive;
 }
 
 .header {
@@ -41,7 +41,7 @@ body {
 .btn-restart {
     color: #f39c12;
     background-color: #222f3e;
-    font-family: 'Edit Undo BRK', sans-serif;
+    font-family: 'Press Start 2P', cursive;
     cursor: pointer;
     padding: 10px;
     margin: 20px;
