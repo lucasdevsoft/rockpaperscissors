@@ -33,7 +33,7 @@ body {
 .selector-text {
     justify-content: center;
     text-align: center;
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     color: #222f3e;
     padding: 4px 0;
 }
@@ -67,7 +67,7 @@ body {
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
     align-items: center;
-    font-size: 2.2rem;
+    font-size: 1.6rem;
     color: #222f3e;
 }
 
